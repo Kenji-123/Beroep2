@@ -1,0 +1,51 @@
+body {
+    background-image: url('/Images/achtergrond.png');
+    background-size: cover;                    
+    background-repeat: no-repeat;       
+}
+
+#titel{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 90px;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+#p{
+    font-size: 40px;
+    color: aliceblue;
+    margin-top: 0px;
+}
+
+.container {
+    width: 97vw;
+    height: 450px;
+    overflow: auto; 
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.content {
+    width: 96vw;
+    height: 500px;
+}
+.game{
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    margin-right: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+#knop{
+    background-color: transparent;
+    height: 100px;
+    width: 200px;
+    color: aliceblue;
+    border: 2px solid aliceblue;
+    font-size: 50px;
+    position: absolute;
+    right: 50px;
+    top: 50px;
+}
+#j{
+    color: aliceblue;
+}
