@@ -18,7 +18,7 @@ body {
 
 .container {
     width: 97vw;
-    height: 450px;
+    height: 440px;
     overflow: auto; 
     border: 1px solid #ccc;
     padding: 10px;
