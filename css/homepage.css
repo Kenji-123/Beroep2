@@ -32,4 +32,10 @@ button {
     color: aliceblue;
     font-size: 40px;
 }
-
+#astronaut {
+    position: absolute;
+    top: 30%; 
+    right: 350px; 
+    max-width: 500px;
+    height: auto;
+}
