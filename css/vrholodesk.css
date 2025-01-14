@@ -1,0 +1,39 @@
+body {
+    background-image: url('/Images/achtergrond.png');
+    background-size: cover;                           
+}
+#titel{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 90px;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+#p{
+    font-size: 40px;
+    color: aliceblue;
+    margin-top: 0px;
+}
+#knop{
+    background-color: transparent;
+    height: 100px;
+    width: 200px;
+    color: aliceblue;
+    border: 2px solid aliceblue;
+    font-size: 50px;
+    position: absolute;
+    right: 50px;
+    top: 50px;
+}
+#j{
+    color: aliceblue;
+}
+#info{
+    color: aliceblue;
+}
+#foto{
+    position: absolute ;
+    left: 60%;
+    top: 40%;
+    height: 300px;
+    width: auto;
+}
