@@ -1,5 +1,5 @@
 body {
-    background-image: url('/Images/achtergrond.png');
+    background-image: url('../../../images/achtergrond.png');
     background-size: cover;                           
 }
 #titel{
@@ -26,6 +26,7 @@ body {
 }
 #j{
     color: aliceblue;
+    text-decoration: none;
 }
 #info{
     color: aliceblue;

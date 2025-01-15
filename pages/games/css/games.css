@@ -1,5 +1,5 @@
 body {
-    background-image: url('/Images/achtergrond.png');
+    background-image: url('../../../images/achtergrond.png');
     background-size: cover;                    
     background-repeat: no-repeat;       
 }
@@ -48,4 +48,5 @@ body {
 }
 #j{
     color: aliceblue;
+    text-decoration: none;
 }
