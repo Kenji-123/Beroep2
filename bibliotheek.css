@@ -1,0 +1,57 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('/Images/achtergrond.png'); 
+    background-size: cover;                    
+    background-repeat: no-repeat;       
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.titel {
+    margin: 0;
+}
+
+#midden {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+#separator {
+    margin: 0 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 90vw;
+    margin: 20px auto;
+    gap: 80px; /* Ruimte tussen de vakken */
+}
+
+
+.box {
+    width: 45%;
+    height: 500px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1); /* Transparant witte achtergrond */
+    border-radius: 5px;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
