@@ -1,0 +1,60 @@
+
+body {
+    background-image: url('/Images/achtergrond.png');
+    background-size: cover;                    
+    background-repeat: no-repeat;       
+}
+ 
+#titel{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 90px;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+#p{
+    font-size: 40px;
+    color: aliceblue;
+    margin-top: 0px;
+}
+
+#knop{
+    background-color: transparent;
+    height: 100px;
+    width: 200px;
+    color: aliceblue;
+    border: 2px solid aliceblue;
+    font-size: 50px;
+    position: absolute;
+    right: 50px;
+    top: 50px;
+}
+.knop1{
+    background-color: transparent;
+    height: 170px;
+    width: 1000px;
+    color: aliceblue;
+    border: 2px solid aliceblue;
+    font-size: 50px;
+}
+#j{
+    color: aliceblue;
+}
+.foto{
+    width: 100%;
+    max-width: none;
+    height: auto;
+}
+#logo{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-right: 400px;
+    width: 100%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-top: -700px;
+    margin-right: 100px;
+    align-items: start;
+    justify-content: start;
+    height: auto;
+}

@@ -1,0 +1,52 @@
+body {
+    background-image: url('/Images/achtergrond.png');
+    background-size: cover;                           
+}
+
+#titel{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 90px;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+#p{
+    font-size: 40px;
+    color: aliceblue;
+    margin-top: 0px;
+}
+#knop{
+    background-color: transparent;
+    height: 100px;
+    width: 200px;
+    color: aliceblue;
+    border: 2px solid aliceblue;
+    font-size: 50px;
+    position: absolute;
+    right: 50px;
+    top: 50px;
+}
+#j{
+    color: aliceblue;
+}
+.knop1{
+    background-color: transparent;
+    height: 170px;
+    width: 850px;
+    color: aliceblue;
+    border: 2px solid aliceblue;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+#div {
+    display: flex; 
+    align-items: flex-start;
+    gap: 100px;
+}
+#links{
+    display: flex;
+    flex-direction: column;
+}
+#rechts{
+    display: flex;
+    flex-direction: column;
+}
