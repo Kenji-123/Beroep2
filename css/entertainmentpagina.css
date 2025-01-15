@@ -30,7 +30,7 @@ body {
 }
 .knop1{
     background-color: transparent;
-    height: 100px;
+    height: 170px;
     width: 1000px;
     color: aliceblue;
     border: 2px solid aliceblue;
@@ -38,4 +38,23 @@ body {
 }
 #j{
     color: aliceblue;
+}
+.foto{
+    width: 100%;
+    max-width: none;
+    height: auto;
+}
+#logo{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-right: 400px;
+    width: 100%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-top: -700px;
+    margin-right: 100px;
+    align-items: start;
+    justify-content: start;
+    height: auto;
 }
