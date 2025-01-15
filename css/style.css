@@ -44,8 +44,8 @@ button:hover {
 #astronaut {
     position: absolute;
     top: 25%; 
-    right: 150px; 
+    right: 100px; 
     max-width: 900px;
-    height: 700px;
+    height: auto;
 }
 
