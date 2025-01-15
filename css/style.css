@@ -1,15 +1,9 @@
 
 body {
-<<<<<<< HEAD
-    background-image: url('../Images/achtergrond.png'); 
-=======
     background-image: url('../images/achtergrond.png'); 
->>>>>>> eb4d2f620d6b8c2491eae3612d23c1b79af584ca
     background-size: cover;                    
     background-repeat: no-repeat;       
 }
-
-
 
 h1, p {
     font-family:Georgia, 'Times New Roman', Times, serif;
