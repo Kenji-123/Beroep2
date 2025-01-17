@@ -28,18 +28,18 @@ body {
     justify-content: space-between;
     align-items: flex-start;
     width: 90vw;
-    margin: 20px auto;
-    gap: 80px; /* Ruimte tussen de vakken */
+    margin: 200px auto;
+    gap: 80px; 
 }
 
 
 .box {
     width: 45%;
-    height: 500px;
+    height: 600px;
     overflow-y: auto;
     border: 1px solid #ccc;
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.1); /* Transparant witte achtergrond */
+    background-color: rgba(255, 255, 255, 0.1); 
     border-radius: 5px;
 }
 
@@ -54,4 +54,17 @@ body {
     width: 100%;
     height: auto;
     border-radius: 5px;
+}
+
+#knop{
+    background-color: transparent;
+    height: 100px;
+    width: 200px;
+    color: aliceblue;
+    border: 2px solid aliceblue;
+    font-size: 50px;
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    text-decoration: none;
 }
