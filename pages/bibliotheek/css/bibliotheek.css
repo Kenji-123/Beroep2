@@ -12,6 +12,7 @@ body {
 
 .titel {
     margin: 0;
+    position: relative;
 }
 
 #midden {
@@ -63,7 +64,7 @@ body {
     color: aliceblue;
     border: 2px solid aliceblue;
     font-size: 50px;
-    position: absolute;
+    position: fixed;
     right: 50px;
     top: 50px;
     text-decoration: none;
