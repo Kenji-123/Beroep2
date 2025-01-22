@@ -1,7 +1,8 @@
 body {
-    background-image: url(/images/achtergrond.png);
+    background-image: url(https://102574.stu.sd-lab.nl/m2m4/images/achtergrond.png);
     background-size: cover;                    
-    background-repeat: no-repeat;       
+    background-repeat: no-repeat;  
+    overflow: hidden;
 }
 
 h1, p {
@@ -20,4 +21,68 @@ p {
     font-size: 39px;
     margin-top: 0px;
     padding-left: 50px;
+    text-decoration: none;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: aliceblue;
+    border-radius: 50px;
+    text-decoration: none;
+    height: 600px; 
+    overflow-y: scroll; 
+    padding-right: 10px; 
+}
+
+.grid-item {
+    text-align: center;
+    text-decoration: none;
+    display: flex;              
+    flex-direction: column; 
+    justify-content: space-between;
+    height: 100%;             
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    text-decoration: none;
+}
+
+.grid-item img:hover {
+    transform: scale(1.05);
+    text-decoration: none;
+}
+
+.grid-item p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+    flex-grow: 1;             
+
+}
+
+
+
+#knop{
+    background-color: transparent;
+    height: 100px;
+    width: 200px;
+    color: aliceblue;
+    border: 2px solid aliceblue;
+    font-size: 50px;
+    position: absolute;
+    right: 50px;
+    top: 50px;
+}
+#j{
+    color: aliceblue;
+    text-decoration: none;
 }
