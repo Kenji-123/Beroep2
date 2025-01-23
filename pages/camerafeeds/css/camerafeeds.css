@@ -1,8 +1,7 @@
 body {
-    background-image: url(https://102574.stu.sd-lab.nl/m2m4/images/achtergrond.png);
+    background-image: url('https://102574.stu.sd-lab.nl/m2m4/images/achtergrond.png'); 
     background-size: cover;                    
-    background-repeat: no-repeat;  
-    overflow: hidden;
+    background-repeat: no-repeat;       
 }
 
 h1, p {
@@ -21,21 +20,14 @@ p {
     font-size: 39px;
     margin-top: 0px;
     padding-left: 50px;
-    text-decoration: none;
 }
-
 .grid-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
-    gap: 20px; 
-    max-width: 1200px;
+    gap: 150px; 
+    max-width: 1100px;
     margin: 0 auto;
-    background-color: aliceblue;
-    border-radius: 50px;
-    text-decoration: none;
-    height: 700px; 
-    overflow-y: scroll; 
-    padding-right: 10px; 
+    background-color: transparent
 }
 
 .grid-item {
@@ -48,7 +40,7 @@ p {
 }
 
 .grid-item img {
-    width: 100%;
+    width: 150%;
     height: auto;
     border-radius: 8px;
     transition: transform 0.3s ease;
@@ -63,13 +55,14 @@ p {
 .grid-item p {
     margin-top: 10px;
     font-size: 14px;
-    color: #333;
+    color: #17b264;
     text-decoration: none;
-    flex-grow: 1;             
+    flex-grow: 1;      
+    border-color: aliceblue;       
+    border: 50px;
+    border-radius: 90px;
 
 }
-
-
 
 #knop{
     background-color: transparent;
