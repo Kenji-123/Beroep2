@@ -1,18 +1,52 @@
 body {
-    background-image: url('../../../images/achtergrond.png');
-    background-size: cover;                           
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-image: url('../../../images/achtergrond.png'); 
+    background-size: cover;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
-#titel{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 90px;
-    color: aliceblue;
-    margin-bottom: 10px;
+
+.container {
+    width: 90vw;
+    margin-top: 250px;
+    margin-left: 20px;
 }
-#p{
-    font-size: 40px;
-    color: aliceblue;
-    margin-top: 0px;
+
+.header {
+    position: absolute;
+    top: 20px; 
+    left: 20px; 
+    text-align: left; 
+    margin-bottom: 50px;
 }
+
+.grid-layout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Twee kolommen */
+    grid-template-rows: repeat(2, auto); /* Twee rijen */
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.text {
+    font-size: 1em;
+    line-height: 1.6;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+
 #knop{
     background-color: transparent;
     height: 100px;
@@ -29,47 +63,10 @@ body {
     text-decoration: none;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); 
-    gap: 850px; 
-    max-width: 1200px;
-    margin: 0 auto;
-    background-color: aliceblue;
-    border-radius: 50px;
-    text-decoration: none;
-    height: 700px; 
-    
-    padding-right: 10px; 
+h1 {
+    font-size: 70px;
 }
 
-.grid-item {
-    text-align: center;
-    text-decoration: none;
-    display: flex;              
-    flex-direction: column; 
-    justify-content: space-between;
-    height: 100%;             
-}
-
-.grid-item img {
-    width: 159%;
-    height: auto;
-    border-radius: 8px;
-    transition: transform 0.3s ease;
-    text-decoration: none;
-}
-
-.grid-item img:hover {
-    transform: scale(1.05);
-    text-decoration: none;
-}
-
-.grid-item p {
-    margin-top: 10px;
-    font-size: 14px;
-    color: #333;
-    text-decoration: none;
-    flex-grow: 1;             
-
+h2 {
+    font-size: 40px;
 }
