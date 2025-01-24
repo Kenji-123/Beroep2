@@ -58,11 +58,7 @@ body {
     text-decoration: none;
     color: aliceblue;
 }
-.foto{
-    width: 100%;
-    max-width: none;
-    height: auto;
-}
+
 #logo{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
