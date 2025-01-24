@@ -1,12 +1,6 @@
-function play() {
-    var audio = document.getElementById("audio");
-    audio.play();
-  }
- 
-  function play(muziekje) {
-    //var audio = document.getElementById("audio2");
-    let audioTag = document.createElement('audio');
-    audioTag.src = muziekje;
-    audioTag.play();
-    console.log (muziekje)
-  }
+function play(muziekje) {
+  var audio = document.getElementById("audio");  // Verkrijg de bestaande audio tag
+  audio.src = muziekje;  // Stel het bronbestand van de audio in
+  audio.play();  // Speel de muziek af
+  console.log(muziekje);  // Log het pad naar het muziekbestand (voor debugging)
+}
