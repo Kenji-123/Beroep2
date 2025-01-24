@@ -28,3 +28,48 @@ body {
     color: aliceblue;
     text-decoration: none;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 850px; 
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: aliceblue;
+    border-radius: 50px;
+    text-decoration: none;
+    height: 700px; 
+    
+    padding-right: 10px; 
+}
+
+.grid-item {
+    text-align: center;
+    text-decoration: none;
+    display: flex;              
+    flex-direction: column; 
+    justify-content: space-between;
+    height: 100%;             
+}
+
+.grid-item img {
+    width: 159%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    text-decoration: none;
+}
+
+.grid-item img:hover {
+    transform: scale(1.05);
+    text-decoration: none;
+}
+
+.grid-item p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+    flex-grow: 1;             
+
+}
